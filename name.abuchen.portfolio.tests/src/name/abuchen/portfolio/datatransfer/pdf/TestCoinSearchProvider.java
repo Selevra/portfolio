@@ -24,6 +24,7 @@ public class TestCoinSearchProvider
                 return List.of( //
                                 new Coin("bitcoin", "BTC", "Bitcoin").asResultItem(),
                                 new Coin("ethereum", "ETH", "Ethereum").asResultItem(),
+                                new Coin("ripple", "XRP", "XRP").asResultItem(),
                                 new Coin("stellar", "XLM", "Stellar").asResultItem());
             }
         });
